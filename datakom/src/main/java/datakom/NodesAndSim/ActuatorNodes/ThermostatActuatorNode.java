@@ -11,6 +11,4 @@ public class ThermostatActuatorNode {
         this.temperature = temperature;
         System.out.println("Thermostat temperature set to: " + temperature);
     }
-
-    
 }

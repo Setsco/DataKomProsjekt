@@ -24,7 +24,7 @@ public class MotionNode {
         try {
             // Create a connection factory
             ConnectionFactory factory = new ConnectionFactory();
-            factory.setHost("localhost"); // Set the hostname of your RabbitMQ server
+            factory.setHost("localhost");
 
             // Create a connection and channel
             connection = factory.newConnection();

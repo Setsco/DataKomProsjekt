@@ -57,7 +57,6 @@ public class HumidityNode {
 
     public double readHumidity() {
         // Simulate humidity reading
-        // You can generate a random humidity value within a specific range or use predefined patterns
         double humidity = random.nextDouble() * 100.0; // Generate a humidity between 0.0 and 100.0
         return humidity;
     }

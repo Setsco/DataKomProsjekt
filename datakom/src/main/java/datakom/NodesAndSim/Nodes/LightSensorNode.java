@@ -15,7 +15,6 @@ public class LightSensorNode {
 
     public int readLightIntensity() {
         // Simulate light intensity reading
-        // You can generate a random light intensity value within a specific range or use predefined patterns
         int lightIntensity = random.nextInt(1000); // Generate a light intensity between 0 and 1000
         return lightIntensity;
     }
@@ -24,7 +23,7 @@ public class LightSensorNode {
         try {
             // Create a connection factory
             ConnectionFactory factory = new ConnectionFactory();
-            factory.setHost("localhost"); // Set the hostname of your RabbitMQ server
+            factory.setHost("localhost");
 
             // Create a connection and channel
             connection = factory.newConnection();

@@ -15,8 +15,7 @@ public class TemperatureNode {
 
     public double readTemperature() {
         // Simulate temperature reading
-        // You can generate a random temperature within a specific range or use predefined patterns
-        double temperature = 20.0 + random.nextDouble() * 10.0; // Generate a temperature between 20.0 and 30.0
+        double temperature = 20.0 + random.nextDouble() * 10.0;
         return temperature;
     }
 
@@ -25,7 +24,7 @@ public class TemperatureNode {
         try {
             // Create a connection factory
             ConnectionFactory factory = new ConnectionFactory();
-            factory.setHost("localhost"); // Set the hostname of your RabbitMQ server
+            factory.setHost("localhost"); 
 
             // Create a connection and channel
             connection = factory.newConnection();
