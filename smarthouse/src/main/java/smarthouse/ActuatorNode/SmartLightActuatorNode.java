@@ -1,4 +1,4 @@
-package datakom.NodesAndSim.ActuatorNodes;
+package smarthouse.ActuatorNode;
 
 public class SmartLightActuatorNode {
     private boolean isOn;

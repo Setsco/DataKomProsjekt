@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>datakom</groupId>
-  <artifactId>datakom</artifactId>
+  <groupId>smarthouse</groupId>
+  <artifactId>smarthouse</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>datakom</name>
+  <name>smarthouse</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -29,21 +29,6 @@
       <groupId>com.rabbitmq</groupId>
       <artifactId>amqp-client</artifactId>
       <version>5.13.0</version>
-    </dependency>
-    <dependency>
-        <groupId>org.openjfx</groupId>
-        <artifactId>javafx-controls</artifactId>
-        <version>15</version>
-    </dependency>
-    <dependency>
-        <groupId>org.openjfx</groupId>
-        <artifactId>javafx-fxml</artifactId>
-        <version>15</version>
-    </dependency>
-    <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-api</artifactId>
-        <version>1.7.32</version> <!-- Replace with the desired SLF4J version -->
     </dependency>
     <dependency>
       <groupId>org.eclipse.paho</groupId>
@@ -94,14 +79,6 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
-        <plugin>
-        <groupId>org.openjfx</groupId>
-        <artifactId>javafx-maven-plugin</artifactId>
-        <version>0.0.8</version>
-        <configuration>
-            <mainClass>datakom.App</mainClass>
-        </configuration>
-    </plugin>
       </plugins>
     </pluginManagement>
   </build>
