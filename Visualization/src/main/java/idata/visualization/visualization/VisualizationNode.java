@@ -7,6 +7,9 @@ import java.nio.charset.StandardCharsets;
 import javafx.application.Platform;
 import javafx.scene.control.Label;
 
+/**
+ * Connects to the MQTT broker to receive the messages
+ */
 public class VisualizationNode{
     private MqttClient client;
     // private static final String BROKER_URL = "tcp://129.241.152.12:1883";

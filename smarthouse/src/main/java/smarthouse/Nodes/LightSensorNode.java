@@ -8,6 +8,9 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
+/**
+ * Represents a light sensor
+ */
 public class LightSensorNode {
     
     // private static final String BROKER_URL = "tcp://129.241.152.12:1883";

@@ -7,7 +7,9 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
-
+/**
+ * Represents a humidity sensor
+ */
 public class HumidityNode {
     // private static final String BROKER_URL = "tcp://129.241.152.12:1883";
     private static final String BROKER_URL = "tcp://localhost:1883";

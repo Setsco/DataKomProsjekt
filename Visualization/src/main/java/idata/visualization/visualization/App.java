@@ -8,8 +8,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 /**
- * Hello world!
- *
+ * Shows the data received in a javaFX application
  */
 public class App extends Application
 {

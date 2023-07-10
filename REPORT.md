@@ -107,6 +107,8 @@ The smart home automation project showcases the potential impact of IoT in trans
 
 ## References
 [1]: What is Java?. "https://www.ibm.com/topics/java". Accessed: Jun 15,2023.
+
 [2]: What is Maven: Here’s What You Need to Know. "https://www.simplilearn.com/tutorials/maven-tutorial/what-is-maven". Accessed: Jun 15,2023.
+
 [3]: What is MQTT and Why it is Important for the Internet of Things. "https://blog.akenza.io/what-is-mqtt". Accessed: June 16, 2023.
 

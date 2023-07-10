@@ -6,6 +6,9 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
+/**
+ * Represents a temperature sensor
+ */
 public class TemperatureNode {
     
     private double currentTemp;

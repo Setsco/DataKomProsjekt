@@ -8,6 +8,9 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
 import smarthouse.ActuatorNode.SmartLightActuatorNode;
 
+/**
+ * Represents a motion sensor
+ */
 public class MotionNode {
     private boolean motionDetected;
     private SmartLightActuatorNode lightsActuator;

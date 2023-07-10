@@ -10,8 +10,7 @@ import smarthouse.Nodes.MotionNode;
 import smarthouse.Nodes.TemperatureNode;
 
 /**
- * Hello world!
- *
+ * Sets up the sending of the simulation every 5 seconds
  */
 public class App 
 {
